@@ -4,4 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# web server
 actix-web = "4.9"
+actix-cors = "0.7"
+# logger
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.0", features = ["env-filter"] }
